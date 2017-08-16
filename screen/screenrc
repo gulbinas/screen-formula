@@ -1,0 +1,2 @@
+startup_message off
+hardstatus alwayslastline "%{wb}%-w %{wr}%n %t %{wb}%+w %=%H | %c:%s | %Y-%m-%d | load: %l"

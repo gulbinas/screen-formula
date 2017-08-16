@@ -1,9 +1,9 @@
 screen:
   pkg.installed
 
-/usr/local/etc/.screenrc:
+/usr/local/etc/screenrc:
     file:
         - managed
-        - source: salt://screen/.screenrc
+        - source: salt://screen/screenrc
         - require:
             - pkg: screen
